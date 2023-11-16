@@ -1,9 +1,19 @@
 {
-  "name": "jesh-button",
+  "name": "@developj/button-reuse",
   "version": "0.0.1",
   "description": "a react button",
   "scripts": {
     "rollup": "rollup -c"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/developj/button-reuse"
+  },
+  "keywords": [
+    "smiling"
+  ],
+  "bugs": {
+    "url": "https://github.com/developj/button-reuse/issues"
   },
   "author": "Ezeobi Jeshurun",
   "license": "ISC",
@@ -23,5 +33,8 @@
   "files": [
     "dist"
   ],
-  "types": "dist/index.d.ts"
+  "types": "dist/index.d.ts",
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com"
+  }
 }
