@@ -1,6 +1,6 @@
 {
   "name": "@developj/button-reuse",
-  "version": "0.0.0-development",
+  "version": "0.0.2",
   "description": "a react button",
   "scripts": {
     "rollup": "rollup -c",
